@@ -1,0 +1,29 @@
+
+/* CSS styles for label field, cursor is displayed during mouse hover  */
+
+label {   color: #979797;
+   width: 156px;
+   cursor: pointer;
+   padding-right: 6px;
+   padding-bottom: 1px;
+}
+
+textarea:focus {
+    background-color: yellow;
+    font-weight:bold;
+}
+
+/* highlights the message area during initialization and reset */
+
+#message{  color:white;
+  width:15%;
+  float:left;
+}
+/* highlights some parts of HTML table during PHP code generation
+ such as headers and table rows */
+
+.header{background-color:#52CC52;
+}
+
+.data{background-color:#85FF85;
+}
